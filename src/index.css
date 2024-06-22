@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a global font family and some base styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Center the app container */
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  /* Form elements */
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* List items */
+  ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  

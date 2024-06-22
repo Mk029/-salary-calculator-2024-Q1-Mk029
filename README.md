@@ -4,10 +4,10 @@
 
 1. Clone the repository:
 
-   git clone https://github.com/your_github_id/salary-calculator-2024-Q1.git
+   git clone https://github.com/Mk029/salary-calculator-2024-Q1.git
 
 2. Navigate to the project directory:
-          cd salary-calculator-2024-Q1
+          cd salary-calculator
 
 4. Install dependencies:
           npm install
